@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CAHYA AINUN NISA</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/1.jpeg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script>
+        function playMusic() {
+            var audio = new Audio('kepadanoor.mp3');
+            audio.play();
+        }
+    </script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <audio id="musik" src="kepadanoor.mp3" loop></audio>
+    </audio>
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="font-secondary text-white mb-n2">ica <span class="text-primary">&</span> iki</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#story" class="nav-item nav-link">Story</a>
+                <button onclick="playMusic()">Putar Musik</button>
+            </div>
+            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                <h1 class="font-secondary text-white mb-n2">ica <span class="text-primary">&</span> iki</h1>
+            </a>
+
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5" id="home">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/bg1.jpeg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">cahya ainun nisa</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0"
+                                    style="letter-spacing: 2px;">happy birthday</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/bg2.jpeg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">cahya ainun nisa</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0"
+                                    style="letter-spacing: 2px;">happy birthday</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-prev-icon mt-3"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-next-icon mt-3"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">About</h6>
+                <h1 class="font-secondary display-4">cahya ainun nisa</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+                <div class="col-md-6 p-0 text-center text-md-right">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <h3 class="mb-3">Mba ica</h3>
+                        <p>Dia adalah seorang wanita yang memiliki pesona yang tak terbantahkan. Dalam keadaan badmood,
+                            dia menunjukkan kekuatan sejati yang tak terduga. Dia tak pernah kehilangan pesonanya yang
+                            cantik. Dalam setiap sentuhan, dia menampilkan keanggunan yang memikat hati. Pelukannya yang
+                            hangat menjadi tempat perlindungan yang abadi. Dia adalah misteri yang mempesona dan
+                            mengajakku merasakan keajaiban cinta dalam setiap hela nafasnya.</p>
+
+                    </div>
+                </div>
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/porto 2.jpeg" style="object-fit: cover;">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Story Start -->
+    <div class="container-fluid py-5" id="story">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Story</h6>
+                <h1 class="font-secondary display-4">Our Love Story</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="container timeline position-relative p-0">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/story-1.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">First Meet</h4>
+                            <p class="text-uppercase mb-2">24 may 2023</p>
+                            <p class="m-0">Di bioskop kita bertemu, berlanjut di kafe. Saling bercerita, musik
+                                mengiringi. Sentuhan hangat kita berpadu. Mata beradu, cinta terungkap. Pertemuan ini
+                                menandai awal kisah cinta. Dalam 50 kata, aku temukan keajaiban dan kehangatan yang tak
+                                tertandingi. rasa cinta aku tumbuh, diberkahi musik dan sentuhan yang abadi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">First Date</h4>
+                            <p class="text-uppercase mb-2">03 June 2023</p>
+                            <p class="m-0">Di sebuah kafe yang nyaman,Dalam atmosfer yang penuh kehangatan dan obrolan
+                                yang tak terpisahkan, perasaanku semakin yakin bahwa kamu adalah cinta sejatiku. Setiap
+                                tatapan, senyuman, dan sentuhan mengirimkan getaran yang kuat, menghadirkan keajaiban
+                                cinta yang tak terlukiskan. Di keramaian kafe itu, dunia seakan berhenti berputar, hanya
+                                ada kita berdua, terhubung dalam ikatan yang tak tergoyahkan. Dalam pertemuan itu,
+                                segala keraguan sirna, dan aku menyadari bahwa kamu adalah orang yang telah merubah
+                                hidupku dengan cinta yang tulus dan tak tergantikan.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/story-2.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="section-title position-relative text-center">
+            <h1 class="font-secondary display-4">continue</h1>
+            <i class="far fa-heart text-dark"></i>
+        </div>
+        <!-- Story End -->
+        <br class="container text-justify">
+        <h2>please read carefully</h2>
+        <br class="md 0"><br>gamau banyak basa basi i just wanna say thank you for everything, bingung mau bilang
+        makasih nya gimanaa dan sebanyak apalagi sama kamu, i hope ur days always good but when u have a bad day
+        tell me okayy, my love? i just always here with you, i'll listen ur story everytime, maaf juga ya belum bisa
+        jadi pacar kamu yang baik, selalu buat kamu kesel doang, buat kamu repot mulu or anything yang bikin kamu
+        jadi badmood, sorry if make u not comfortable with me but one more need u know i really really love you.
+        please don't leave me & stay with me, kadang kalau malem belum tidur aku selalu kepikiran gimana ya kalau
+        kamu pergi dari aku? gimana ya kalau kamu risih sama aku selama ini? overthinking teruss, takut kamu tiba
+        tiba pergi dari aku, cuman ada mimpi buruk yang dateng buat aku.. tolong yaa kalau ada apa apa yang bikin
+        kamu risih atau hal yang ga disukai dari aku bilang ajaa, aku bakal lakuin apapun ituu dari kamu, aku bener
+        bener sayang sama kamu, aku bener benerr takut banget kehilangan kamu jugaa.</br>
+
+        <br>aku senang, wangimu yang tertinggal di sela kalimat manis yang berpenggal-penggal<br>
+        aku suka matamu yang coklat penuh hasrat<br>
+        membuat melangkah darimu terasa sangat berat<br>
+        dengan mata itu kau memandang alam semesta
+        dengan mata itu pula kau menjadikanku tak mampu berkata-kata<br>
+        aku benci senyumanmu yang dipenuhi zat adiktif
+        sampai aku tak tahu lagi mana yang fakta, mana yang fiktif<br>
+        senyum seindah senja itu tak pernah gagal membuatku gelagapan
+        membias jingga sebelum akhirnya menggiringku pada kegelapan<br>
+        Pada saat nya nanti aku hanya ingin kerinduan ini membujur di haribaan pelukmu.<br>
+        Konon...segala kegiatan apapun jika tidak diawali dengan mengucapkan Bismillahirohmanirohim, maka kegiatan
+        tersebut tergolong sia-sia.
+        Begitupun puisi...Jika tidak diawali dengan menyebut nama mu, maka puisi tersebut berstatus piatu.<br>
+        <br>
+        <p>semangat terusss cantikku, namanya juga hidup ya kita gak bisa nebak apa yang akan terjadi kedepannya, ntah
+            hal baik atau hal buruk, tapi percaya deh kalau hidup ini gak selalu cerah dengan matahari terkadang ada
+            mendung juga hujan bahkan ada anginnya, angin itu ibarat masalah yang bisa menerpa kita kapan aja. kekuatan
+            yang kamu punya tuh harus dipakai untuk melawan dan melewati angin itu supaya kamu gak jatuh ke belakang,
+            kamu bisa hadapin semua itu dengan baik, kamu kan perempuan kuat yang pernah aku temuin selain ibu aku
+            jangan tinggalin Tuhan ya, apapun yang terjadi dan apapun yang mau kamu lakukan jangan lupa untuk berdoa
+            juga meminta perlindungan, semua akan baik baik aja kok asal kita sabar. capek itu wajar, namanya juga
+            manusia kan? kita bukan robot yang disuruh ini itu langsung nurut tanpa protes atau rasa kesel, sedih juga
+            wajar, pokonya harus semangattt karena kamu punya aku dan aku punya kamu, aku selalu disini gak kemana mana.
+            Aku gak akan tinggalin kamu terlebih disaat kamu ada dalam posisi terendah, jangan sungkan untuk minta
+            bantuan ke aku ya kalau butuh sesuatu, aku akan bantu sebisa ku.</p>
+        <br>aku baru sadar,ternyata rindu bukan soal jarak<br>
+        melainkan orang itu emg yang ada di hati kita<br>plis jangan pergi,kita harus mewujudkan semua rencana rencana
+        kita yang kita susun kecil kecil<br>kita harus lakukan semuanya terus kita ukir sebagai prasasti cinta
+        kita,SLEBEWWW<br>ingat pesan aku yaa,kalau aku udah ga ada,jaga diri kamu baik baik,jangan nakal juga,love you
+        mba ica,i hope kamu suka yaa,walau emg aga alay huhuhu <fa-fa-love></fa-fa-love>
+    </div>
+    </br>
+    </p>
+    </div>
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i
+            class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            var audio = document.getElementById('musik');
+            audio.play();
+        });
+    </script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <audio src="kepadanoor.mp3" autoplay loop>.
+    </audio>
+</body>
+
+</html>
